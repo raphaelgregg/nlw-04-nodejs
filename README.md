@@ -35,17 +35,30 @@ No terceiro dia vamos conhecer o conceito de Repository e como podemos utilizar 
   * [ ] O que são testes automatizados?
   * [ ] Criar primeiro teste
 
+Envio de e-mail
+No quarto dia vamos aprender como enviar e-mail, utilizando templates customizados com informações vindas do banco de dados. Vamos aprender também como utilizar variáveis de ambiente dentro da aplicação
  
 * [ ] Dia 4 -
+  * [ ] criar migration de surveysUsers
+  * [ ] criar model
+  * [ ] criar repositório
+  * [ ] criar controller
+  * [ ] criar serviço de email
+  * [ ] enviar email
+
 * [ ] Dia 5 -
  
- #rumoaoproximonivel #jornadainfinita #focopraticagrupo
+ #rumoaoproximonivel #jornadainfinita #focopraticagrupo #neverstoplearning
+
+ Diagram
+<img src="./.github/diagram.png" alt="diagram">
 
 ## Techs
 * [ ] NodeJS
 * [ ] TypeORM
 * [ ] TypeScript
 * [ ] SqLite
+* [ ] Nodemailer
 
 
 ## Getstarted
@@ -54,6 +67,13 @@ No terceiro dia vamos conhecer o conceito de Repository e como podemos utilizar 
 - Express : mini-framework que controla rotas
 - typescript: 
 - ts-node-dev : convert codigo para js
+- typeorm
+- sqlite
+- uuid
+- jest
+- supertest
+- nodemailer: envio de email com o ethereal
+- handlebars: templete pra os emails
 
 ### Configurações
 tsconfig.json
