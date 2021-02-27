@@ -2,6 +2,8 @@
 
 ## Projeto
 
+Nesta edição da trilha Node foi abordado como criar uma aplicação totalmente do zero com NodeJs e TypeScript, com acesso a banco de dados, envio de emails e testes.
+
 No primeiro dia vamos aprender os conceitos básicos sobre o que é uma API, entender o que é o NodeJS, onde ele tem sido utilizado e qual problema ele veio solucionar e também. Vamos também conhecer o Typescript e entender como ele irá nos ajudar durante o desenvolvimento da nossa aplicação. Já nessa aula vamos dar início ao desenvolvimento da nossa API, colocando em prática alguns dos conceitos aprendidos.
 
 * [ ] Dia 1 - Fundamentos do NodeJS
@@ -15,7 +17,7 @@ No primeiro dia vamos aprender os conceitos básicos sobre o que é uma API, ent
 Banco de Dados
 No segundo dia vamos iniciar a configuração do banco de dados na nossa aplicação, aprendendo algumas formas possíveis para realizar o acesso do banco de dados através do Nodejs. Vamos entender os conceitos de migrations, models e criar nossa primeira tabela de usuário. Também nessa aula iremos aprender e criar nosso primeiro Controller, isolando toda regra para dentro dele.
 
-* [ ] Dia 2 - Banco de dads
+* [ ] Dia 2 - Banco de dadas
     * [ ] Conhecendo as formas de trabalhar com banco de dados na aplicação
     * [ ] Configuração do TypeORM na aplicação
     * [ ] Criar migration de usuário
@@ -38,7 +40,7 @@ No terceiro dia vamos conhecer o conceito de Repository e como podemos utilizar 
 Envio de e-mail
 No quarto dia vamos aprender como enviar e-mail, utilizando templates customizados com informações vindas do banco de dados. Vamos aprender também como utilizar variáveis de ambiente dentro da aplicação
  
-* [ ] Dia 4 -
+* [ ] Dia 4 - Envio de e-mail
   * [ ] criar migration de surveysUsers
   * [ ] criar model
   * [ ] criar repositório
@@ -46,12 +48,23 @@ No quarto dia vamos aprender como enviar e-mail, utilizando templates customizad
   * [ ] criar serviço de email
   * [ ] enviar email
 
-* [ ] Dia 5 -
+Finalizando nossa api com validações
+Nessa última aula vamos finalizar o fluxo da nossa aplicação, inserir validações dos dados recebidos e aprender como tratar os possíveis erros.
+
+* [ ] Dia 5 - Finalizando nossa api com validações
+  * [ ] Refatorar o SendmailController
+  * [ ] Criar controller de resposta de usuário
+    * [ ] Validar se o usuário existe
+    * [ ] Alterar a nota da resposta
+  * [ ] Criar controller com cálculo no NPS
+  * [ ] Criar validações
  
- #rumoaoproximonivel #jornadainfinita #focopraticagrupo #neverstoplearning
+ #rumoaoproximonivel #jornadainfinita #focopraticagrupo #neverstoplearning #missioncomplete
 
  Diagram
+ <p>
 <img src="./.github/diagram.png" alt="diagram">
+ </p>
 
 ## Techs
 * [ ] NodeJS
@@ -74,6 +87,8 @@ No quarto dia vamos aprender como enviar e-mail, utilizando templates customizad
 - supertest
 - nodemailer: envio de email com o ethereal
 - handlebars: templete pra os emails
+- yup: validações
+- express-async-errors
 
 ### Configurações
 tsconfig.json

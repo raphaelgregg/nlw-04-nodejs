@@ -14,6 +14,7 @@ class SurveyController {
         );
         // salvar obejto survey no repo
         surveyRepository.save(survey);
+        // console.log(survey);
         // retornar pesquisa criada
         return response.status(201).json(survey);
     }
